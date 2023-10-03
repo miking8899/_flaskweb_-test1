@@ -3,6 +3,7 @@ from flask import render_template
 
 app = Flask(__name__)
 
+#print(c:\static\images\card.jpg)
 @app.route("/")
 def index():
     return render_template('index.html')
